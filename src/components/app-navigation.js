@@ -188,7 +188,6 @@ export class AppNavigation extends LitElement {
         border-bottom: none;
       }
 
-      /* Mobile styles */
       @media (max-width: 768px) {
         .nav-content {
           height: auto;

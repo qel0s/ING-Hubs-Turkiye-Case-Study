@@ -188,14 +188,12 @@ export class EmployeeForm extends LitElement {
         border: 1px solid #f5c6cb;
       }
 
-      /* Tablet styles */
       @media (max-width: 1024px) {
         .form-row {
           grid-template-columns: 1fr 1fr;
         }
       }
 
-      /* Mobile styles */
       @media (max-width: 768px) {
         .form-row {
           grid-template-columns: 1fr;
